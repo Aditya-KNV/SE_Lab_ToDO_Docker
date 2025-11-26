@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "Aditya8448/ci-cd-demo3:jenkins"
+        IMAGE = "aditya8448/ci-cd-demo3:jenkins"
         VENV = ".venv"
         PYTHON = "/usr/bin/python3"
     }
